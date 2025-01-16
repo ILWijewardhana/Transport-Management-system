@@ -1,0 +1,24 @@
+.table-conts{
+    
+    margin-top: 3%;
+    width: 100%;
+    margin: 20px auto;
+    text-align:left;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 0pc;
+}
+
+button.delete {
+    background-color: #870E10;
+
+  }
+  
+  button.delete:hover {
+    background-color: #870E10;
+    opacity: 80%;
+  }
+
+  .table-data{
+    text-align: left;
+  }

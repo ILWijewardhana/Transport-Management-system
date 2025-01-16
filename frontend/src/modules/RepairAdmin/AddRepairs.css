@@ -1,0 +1,41 @@
+.table-container1 {
+    background-color:gray;
+    padding: 1px;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 17.5pc;
+    height: 2.8pc;
+}
+
+.table-container1 h2 {
+    margin-top: 10px;
+    margin-left: 1pc;
+}
+
+form {
+    border-radius: 10px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 30pc;
+    margin-left: 20pc;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #333;
+    font-weight: bold;
+    
+  }
+  
+  form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+
+ 

@@ -1,0 +1,333 @@
+.card-container1 {
+    background-color: #d0d0d0;
+    padding: 2px;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10pc;
+    height: 15pc;
+    width: 74pc;
+}
+
+/* Responsive Styles for .card-container1 */
+@media only screen and (max-width: 1200px) {
+    .card-container1 {
+        margin-left: 5pc; /* Reduce left margin */
+        width: 80%; /* Adjust width to 80% */
+        height: auto; /* Allow height to adjust automatically */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-container1 {
+        margin-left: 2pc; /* Further reduce left margin */
+        width: 95%; /* Adjust width to 95% */
+        height: auto; /* Allow height to adjust automatically */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card-container1 {
+        margin-left: 0; /* Remove left margin */
+        width: 100%; /* Full width on small screens */
+        height: auto; /* Allow height to adjust automatically */
+        padding: 5px; /* Add some padding for smaller screens */
+    }
+}
+
+.box1 {
+    background-color: #3e576f;
+    padding: 2px;
+    margin-top: 0.8pc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 2pc;
+    height: 13pc;
+    width: 20pc;
+}
+
+/* Responsive Styles for .box1 */
+@media only screen and (max-width: 1200px) {
+    .box1 {
+        margin-left: 1.5pc; /* Adjust left margin */
+        height: 12pc; /* Adjust height */
+        width: 18pc; /* Adjust width */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box1 {
+        margin-left: 1pc; /* Further reduce left margin */
+        height: 10pc; /* Adjust height */
+        width: 90%; /* Adjust width to 90% */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box1 {
+        margin-left: 0; /* Remove left margin */
+        height: auto; /* Allow height to adjust automatically */
+        width: 100%; /* Full width on small screens */
+        padding: 5px; /* Add some padding for smaller screens */
+    }
+}
+
+.card-image {
+    height: 11.5pc;
+    width: 23pc;
+    margin-left: 1.3pc;
+    margin-top: 0.7pc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles for .card-image */
+@media only screen and (max-width: 768px) {
+    .card-image {
+        height: 6pc; /* Adjust height for smaller screens */
+        width: 10pc; /* Adjust width for smaller screens */
+        margin-left: 0; /* Center the image */
+    }
+}
+
+p {
+    margin-left: 28pc;
+    margin-top: -55%; 
+    width: 41pc;
+    align-content: start;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive Styles for <p> */
+@media only screen and (max-width: 1200px) {
+    p {
+        margin-left: 20pc; /* Adjust left margin */
+        width: 20pc; /* Adjust width */
+        font-size: smaller; /* Increase font size */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        margin-left: 10pc; /* Further reduce left margin */
+        width: 20%; /* Adjust width to 80% */
+        font-size:x-small; /* Maintain font size */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    p {
+        margin-left: 0; /* Remove left margin */
+        width: 100%; /* Full width on small screens */
+        font-size: small; /* Decrease font size for small screens */
+    }
+}
+.box1 button {
+    margin-left: 45pc;
+    margin-bottom: 20pc;
+    font-size: large; 
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive Styles for .box1 button */
+@media only screen and (max-width: 1200px) {
+    .box1 button {
+        margin-left: 30pc; /* Adjust left margin */
+        margin-bottom: 15pc; /* Adjust bottom margin */
+        font-size: smaller; /* Adjust font size */
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box1 button {
+        margin-left: 10pc; /* Further reduce left margin */
+        margin-bottom: 10pc; /* Adjust bottom margin */
+        font-size:x-small; /* Maintain font size */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box1 button {
+        margin-left: 0; /* Center button on small screens */
+        margin-bottom: 5pc; /* Adjust bottom margin */
+        width: 100%; /* Full width on small screens */
+        font-size: small; /* Decrease font size for small screens */
+    }
+}
+
+
+/* Add responsive styles for box1 button */
+@media only screen and (max-width: 768px) {
+    .box1 button {
+        margin-left: 0pc; /* Center button on smaller screens */
+        margin-bottom: 0pc; /* Adjust bottom margin */
+        size: 10%;
+    }
+}
+
+.box2 {
+    background-color: #3e576f;
+    padding: 2px;
+    margin-top: 0.8pc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 51pc;
+    height: 13pc;
+    width: 20pc;
+}
+
+/* Responsive Styles for .box2 */
+@media only screen and (max-width: 1200px) {
+    .box2 {
+        margin-left: 40pc; /* Adjust left margin */
+        height: 12pc; /* Adjust height */
+        width: 18pc; /* Adjust width */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box2 {
+        margin-left: 1pc; /* Further reduce left margin */
+        height: 10pc; /* Adjust height */
+        width: 90%; /* Adjust width to 90% */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box2 {
+        margin-left: 0; /* Remove left margin */
+        height: auto; /* Allow height to adjust automatically */
+        width: 100%; /* Full width on small screens */
+        padding: 5px; /* Add some padding for smaller screens */
+    }
+}
+
+.card-image1 {
+    height: 11.5pc;
+    width: 23pc;
+    margin-left: -4.5pc;
+    margin-top: 0.7pc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles for .card-image1 */
+@media only screen and (max-width: 1200px) {
+    .card-image1 {
+        height: 10pc; /* Adjust height */
+        width: 20pc; /* Adjust width */
+        margin-left: -3pc; /* Adjust left margin */
+        margin-top: 0.5pc; /* Adjust top margin */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-image1 {
+        height: 8pc; /* Further adjust height */
+        width: 90%; /* Change width to 90% for better fit */
+        margin-left: 0; /* Center the image */
+        margin-top: 0.5pc; /* Maintain top margin */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card-image1 {
+        height: auto; /* Allow height to adjust automatically */
+        width: 100%; /* Full width on small screens */
+        margin-left: 0; /* Center the image */
+        margin-top: 0.3pc; /* Reduce top margin for smaller screens */
+    }
+}
+
+
+/* Responsive Styles for .card-image1 */
+@media only screen and (max-width: 768px) {
+    .card-image1 {
+        height: 10pc; /* Adjust height for smaller screens */
+        width: 20pc; /* Adjust width for smaller screens */
+        margin-left: 100%; /* Center the image */
+    }
+}
+
+.box2 p {
+    margin-left: -48pc;
+    margin-top: -54%; 
+    width: 41pc;
+    align-content: start;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive Styles for .box2 <p> */
+@media only screen and (max-width: 1200px) {
+    .box2 p {
+        margin-left: -35pc; /* Adjust left margin */
+        width: 20pc; /* Adjust width */
+        font-size: smaller; /* Increase font size */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box2 p {
+        margin-left: 0; /* Remove left margin */
+        width: 80%; /* Adjust width to 80% */
+        font-size: medium; /* Maintain font size */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box2 p {
+        margin-left: 0; /* Remove left margin */
+        width: 100%; /* Full width on small screens */
+        font-size: small; /* Decrease font size for small screens */
+    }
+}
+
+.box2 button {
+    margin-left: -32pc;
+    margin-bottom: 20pc;
+    font-size: large; 
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Add responsive styles for box2 button */
+@media only screen and (max-width: 768px) {
+    .box2 button {
+        margin-left: 0; /* Center button on small screens */
+        margin-bottom: 20pc; /* Adjust bottom margin */
+        width: 100%; /* Full width on small screens */
+        font-size: smaller; /* Decrease font size for small screens */
+    }
+}
+
+.breakdown {
+    margin: auto;
+    margin-bottom: 20pc;
+    font-size: large; 
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    width: 12pc;
+}
+
+/* Responsive Styles for .breakdown */
+@media only screen and (max-width: 768px) {
+    .breakdown {
+        margin: auto;
+        margin-bottom: 15pc; /* Adjust bottom margin */
+        width: 80%; /* Adjust width for smaller screens */
+        font-size: medium; /* Adjust font size for readability */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .breakdown {
+        margin: auto;
+        margin-bottom: 10pc; /* Adjust bottom margin */
+        width: 100%; /* Full width on small screens */
+        font-size: small; /* Decrease font size for small screens */
+    }
+}
